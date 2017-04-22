@@ -1,6 +1,10 @@
+Script auto installer vps Centos6 by JoSSH
+yum install -y wget && wget https://raw.githubusercontent.com/ownerjossh/master-centos6/master/centos6.sh && chmod +x centos6.sh && ./centos6.sh
+
+
+
 Informasi Penggunaan SSH" 
 ===============================================
-echo ""  | tee -a log-install.txt
 Layanan yang diaktifkan
 --------------------------------------
 echo "OpenVPN : TCP 1194 (client config : http://$MYIP/1194-client.ovpn)" 
@@ -15,12 +19,9 @@ echo "Timezone : Asia/Jakarta"
 echo "Fail2Ban : [on]"  
 echo "IPv6     : [off]" 
 
-
-
 Perintah VPS ANDA
-
-speedtest: untuk cek speed vps"  
+speedtest   : untuk cek speed vps"  
 user-login  : untuk melihat user yang sedang login"  
-trial : untuk membuat akun trial selama 1 hari" 
-user-add : untuk membuat akun baru"  
-user-list : untuk melihat daftar akun beserta masa aktifnya" 
+trial       : untuk membuat akun trial selama 1 hari" 
+user-add    : untuk membuat akun baru"  
+user-list   : untuk melihat daftar akun beserta masa aktifnya" 
