@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script by Fawzya.Net - 085799054816
+# Script by JoSSH TEAM - 087802844588
 echo "-------------------------------"
 echo "USERNAME        TANGGAL EXPIRED"
 echo "-------------------------------"
