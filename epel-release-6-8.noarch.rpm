@@ -1,0 +1,104 @@
+í«îÛ    ÿepel-release-6-8                                                                    Ž­è         „   >     t                
+          è     D     ê     H    ì     `     ï     p   ‰ P—Ûm;Iß*¸•6
+üWMˆ[kK«qsÄóãè9ý’3QW6!°%¤Høs¦¤ß±*
+þÀc¡I‡!^žíÖaŠ%ÃNN"¹êØ"¡QóØÿ³~÷
+cÀæ6ž@Xå›²î82’Í,á@€¦“ÙiS¶&°Í±¾¼«õ˜*iÚDØRã¦qäÓZë£*=Ééýˆ·ÆH8N9‡Kÿ3ýÍ³è!AðhG) ½®ò‰ù&½ÇÍ‘CÒb"»8Îî.-ÛŒ¬	c^ˆ&ú¤ums€BÍ?’Ó	y¿»âèedðne9r ~ 3LÖs8-”îX[od'”fzÔ÷£¬¯G„•­÷‡"¡„Ib|<!a…®¶aKdZÁ)¬mmî¥hKY›²¡7nè”=CN
+–êz½„W1ßŒvm©gÊ à•F'Ûç%º}ö:%HUe?®2@D5cóÆ‡–Ý¼k8=èéÞPWp7Ø÷æÃ~;…8°uiü³oùüÐ*;’ úY'÷Œ)ä¥vû@=j4±Û	EÊ¶ê¸$›Ó˜dí#¤²80ûœÏ]é}“!„à©¢ðq
+V„½7¨;è8|¥žOf/Ôi=éiî‰‘OÒVªâ³?g85'J¸¨kÆñùÀWP³V­`fÌ/Cßyc081bf3f386d737c4e04bbef9885d1f221fa6b1f      3d‰ P—Ûm;Iß*¸•E~ÿLÌ9.»ãD£¤ÏÙÿmŠ#Ÿr^ã{§<ŽSÈåá¹0\hñ\{¡&†=`®%É˜ãJ
+ŠÑ^)W„pÿa(¬ÌÒ«Ò*;3E@ìô·Ò˜CY˜R˜ž†ƒÅ® Î˜wDEÁ…iï¸õ²ä°•Û£º˜¿sNÍ®í…WXÝ%ŒM3C\ÀbóÅžá÷ògì&Ý¦ú¤ì¶·Àÿuò%!ûDE+‘]¸äD{¢4w“#éÆä™}ÄTjÇoZ	6ßˆ‹efz#±7õs2Ý—+Ú;ŽeAD	±ª­ßRÚmñr…eä÷CÇ£ÛsÖáªUN1%ÉÁöì¯rp¢È?C<I÷ÄÄÆ`:ŸîþîE‡b jPÜ=´8y™B{˜o
+x>ß"ò¦ÆE­H,Êi¹4X:_(Á!~BÓÅ*O“’Óû6"­Ò¸‚¬[iR%ÕšýÕÞš§å—½éw™ÿÇãö+Sy¶rDÄŒšB¶‹>™ÇuÃRf¡¾6NuMZÿVÚ¡Âe9Pk7M":ÁÈòVD¹Õb|PÚþeä¥5 PžéHKÓßª0bcéd^Ú8ï³µ°}¾Ùƒb§j5
+ÃÉ'”ÿßI˜ã?Xy
+!ú5ù:11+Îî’h!K•¨§"'
+ÕÔH‘›h„¯¤Aë ÊÉq€%kå»”þëj
+Ú½  Z€   >   ÿÿÿ       Ž­è       ?  Ì   ?     ¼      d            è           é           ê           ì   	        í   	   P     î      Ø     ï      Ü     ñ           ò          ó          ö     "     ÷     (     ø   	  7     ü     O     ý     u     þ     {           ‚          p          à          ø     	          
+               (          n     
+     t          Œ          ª          È          ä          ü                     @          ×          ü                          (          8          9     P     :     Å     >     
+÷     @     
+ÿ     G          H           I     8     X     @     Y     H     \     P     ]     h     ^     º     b          d          e           f     #     l     %     t     @     u     X     v     p     w     ˆ     x           “     ¸   C epel-release 6 8 Extra Packages for Enterprise Linux repository configuration This package contains the Extra Packages for Enterprise Linux (EPEL) repository
+GPG key as well as configuration for yum and up2date.   P—8buildvm-05.phx2.fedoraproject.org     V™Fedora Project Fedora Project GPLv2 Fedora Project System Environment/Base http://dl.fedoraproject.org/pub/epel/ linux noarch # Not needed for el6 as sources has been removed
+#echo "# epel repo -- added by epel-release " \
+#    >> /etc/sysconfig/rhn/sources
+#echo "yum epel http://download.fedora.redhat.com/pub/epel/6/\$ARCH" \
+#    >> /etc/sysconfig/rhn/sources #sed -i '/^yum\ epel/d' /etc/sysconfig/rhn/sources
+#sed -i '/^\#\ epel\ repo\ /d' /etc/sysconfig/rhn/sources      q   z     ½     GÑ¤¤¤¤Aí¤            P—7ñP—7ñP—7ñP—7ñP—8P—7ñ626e18ffb3565e29ab94c02e11b593b7aded7ca910e03abc167efae38accfacf 9018a76129e1f31972fb6a2b15090ef511cc716eabb385cf81583fb69f880553 432928cd7ac35566a7e6d02914c3cf21906c908f0ad7fe6d884bffde5028a620 cd49150ce444209e46d03678afe306c824ee8dc9ee48efb64d55cd5d002cf5bc  03a55cfbbbfcdfc75fed8aeca5383fef12de4f019d5ff15c58f1e6581465007e                            root root root root root root root root root root root root epel-release-6-8.src.rpm    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿconfig(epel-release) epel-release                
+  
+  
+  
+/bin/sh /bin/sh config(epel-release) redhat-release rpmlib(CompressedFileNames) rpmlib(FileDigests) rpmlib(PayloadFilesHavePrefix) rpmlib(PayloadIsXz)   6-8 6 3.0.4-1 4.6.0-1 4.0-1 5.2-1      fedora-release  4.8.0   P–XÀOª\@O(@L´MÀLbÀL7@KÖÑÀI£á@H4@Fd@Fd@Fd@E÷ãÀEõ@À<stahnma@fedoraproject.org> - 6-8 Jens Petersen <petersen@redhat.com> - 6-7 Jens Petersen <petersen@redhat.com> - 6-6 Michael Stahnke <stahnma@fedoraproject.org> - 6-5 Seth Vidal <skvidal at fedoraproject.org> - 6-4 Dennis Gilmore <dennis@ausil.us> - 6-3 Dennis Gilmore <dennis@ausil.us> - 6-1 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 6-2 Tom "spot" Callaway <tcallawa@redhat.com> - 6.1 Michael Stahnke <mastahnke@gmail.com> - 6-0 Michael Stahnke <mastahnke@gmail.com> - 4-4 Michael Stahnke <mastahnke@gmail.com> - 4-3 Michael Stahnke <mastahnke@gmail.com> - 4-2 Michael Stahnke <mastahnke@gmail.com> - 4-1 - Fix URL bz #870686 - add ppc64 to ghc_arches - add /etc/rpm/macros.ghc-srpm from fedora redhat-rpm-macros - Fix bug #627611 - conflict fedora-release - use metalink urls not mirrorlist ones - setup for EL-6
+- new key - Rebuilt for https://fedoraproject.org/wiki/Fedora_11_Mass_Rebuild - fix license tag - Bumped in devel to RHEL 6. (We can dream). - Changed description again - Removed cp in postun
+- Removed the file epel-release - provides no value
+- Removed dist tag as per review bug #233236
+- Changed description - Fixed up2date issues. - Initial Package /bin/sh /bin/sh                                                   6-8 6-8                    RPM-GPG-KEY-EPEL-6 macros.ghc-srpm epel-testing.repo epel.repo epel-release-6 GPL /etc/pki/rpm-gpg/ /etc/rpm/ /etc/yum.repos.d/ /usr/share/doc/ /usr/share/doc/epel-release-6/ -O2 cpio xz 2 noarch-redhat-linux-gnu                                                ASCII text directory                                                         ?   ÿÿü   ý7zXZ  
+áû¡ !   PH6àZ">] 
+Ýb2ùu€¢½Q{ÄJìšL`8FC Ù˜‰c™ŸT öR„›¬doU@Ÿ³oÉT:ÈXjäº¡@å«™@—%ê¿`¨×¡ÎÍWÌ´²U;˜GÃNÁVÝQ"ó–ª]W™àÃ¡(7•ü?õ Ü¥CØ1íÖžÑK÷×JËgò§ÄÚwF–v’z‹”e!e¦ÓåsY¤ºõóØò6/§`àª©™º”Âp€à°f£#ýUiˆ@±šŠ/$ÚÒé“`NŸr«ÁuŠåJãíÛZßÚµ@ÊM¨äF¨Ðž(Vù Ñ¿ ¬M^Ö­iÎ°À‘k¹ %·ìv”HŸÔn€ù.l$+K|8ò™-5æý£ù¨ÓàX
+º˜sôR…0uO‡¼7yH5h/Wò
+¼¦Ùëg/¦x3À)çë_‡˜Úš;Éãîè:Å,m‡õFÚBãoj{wa›ºl`%Î²É_ÊßUDo»ßKÄbŒí"|¥6'y¦¾§„§AX,ïèÊýk%`³%7ßQŠŸ_|ˆ¸ÓKÊ¸œ!Â,‘5ÞXDx®;u0L$a$ûã!M‡DÍU!Ôh¼mé¦J»é­ÿ2iwøY©)‹áŒ‰…¹D§ICZ'-|v¯ÝYs•¥ÒÓ0b1rMÓ¾/8Œ°CÎ[{M|ñd½Oô“gc[¹I¸‡-Fho.|=u¸­vÆlÀ/v/ê¬»D÷ûŽ:…ÓÈäN*9
+úU¨–Ì)WS2A’[¼¨Âjøã@ÓçBgÑïç#¥°nVxOÞ!Np¬—.(}“nÌ¬Ó^V=„÷ÿCü•Ùú5/1îw0øÑ¶ñ•‘ƒtµÂ‰Ïi=7ºíT·Óêöz˜ñ‘X–\A—ÉFÞ<7zY}¸‡ï‰C?ˆ÷Žž£
+sDÛ¶²KNâˆIíÞ¦WÇ©müÉÑ	æ<‡xtdÍ&àu9ªY“ì5
+K2“ÞŠÝå‹ÇÀxýYía2ÏËj%ËE‘ö-Ý“/í…ÑÉªÊÊ
+ù·<I’³õóµÚ?ãònÊùÛiÊÓùIZ/ñvµ°SŠð9öýô¿e|5Ú×nÙ-p¹È‰aþÙØk¢•œ	Í]0]’o4»–ºÑ•ƒnµ…âëÑ )ñüÝ6zÈæ|zexgÍp„@–Öh2Â¨)!c’ÍÆ£Ýƒ0Xù<˜Óf1OÉÿ•¾^‹ùÁG±â]:Ò× 3iNíùçÖó†	òÕ,Ç&]°ßŒ¶J(ÁDˆE4
+&Ñ€IPsDë?O!>«ª…âÍ“2òŽi}UnãFî	2fAm`DÎn¦Ô$ûèÊ˜#¸~[¿c	BÏ~€<³®,Õ9¹p}.ašnµCS´KÀ\´„1Fó^q´’±2€—ÐEÆ
+Ü<uŠÊowþ!¼áÝÐh%Ìÿ#á:E6²ÆºVÄì¶)7<Cý¶h pgŒ€²r¨hø\¦W)Ã¦Æ
+gpÜäô”j¦ÃôÎ3bë¦›¢ÊUˆ—…ç¹)pƒ(Ý*T?¥	xåèAOëí³æøÞOž­‘»³=cé§6;dÉvQ¨,Åzäpm!}LÜOÇ]€hdGÃågéªìê¸qFñ¾ïÇÏA][¤¡ê@-cM>ÁUŒí`xQ«5„qL˜Ç3,¬?Æù~rVñF¸ö±-È}
+Ÿƒ§ä…Õ:ðÌ9(M­s3C‘ò¬Vb¶ènæleòkp‘ü—wM}Ð¦F«…[ïöøtdh,žyS	Œ4Ñø.\Â	®pÜŠ
+Žü9œ‘ÉlÄ•5Ð|uœeäD.£¤ï#04ÔO¥e´¸¡4Ë‰o”#Çñ êx˜Ê€÷.ª‡#µ'lbéXÀGë
+ÎžosÐ*$~ w»FOL%PñÛY7 KðÊ‹
+öf?‘™fŽÇÛ;N R­	 ­3„¹|ëV×–€ñä#½Æ“ø?æbZµ¸Ý¨¯ÊC‡É—tó7©€]õÊÐbeoˆ.z/XF©fÈŒÖ³>òýHæköPOï›æþRq4×’%°ÑEÔÔƒ‹Ÿ
+WÃ­ý¥9Œ¹Â²-Ã36ASê¦$ Y	XøyÁÜ-ÑÆÌ¦%ªnýBU}ñ$_º¤A`Ú4õqˆ»öpð¯á‹kq`¡mE@°‘q*Ñ¼¨}Q²’-Åÿ&o=ðÊ>Q§Åið`1×\:yÆÚj Ë;»‚M[ëU5‚U:Fí†4!KÈýó*âÇX%œÚBçÒN¥Q ¤í¯Æ˜"ùÛì=ôk)BW6T"Têå
+ÐøLg”£Ÿ)J'NQ°UeqR°BytÈðÌ*WãJìJ»¤‹Ñf6Ê§É";uñ”Ï
+£oúµE¡ËöÚÂ‰ò¿+c^Â›®ÿJXM !rÈY}Îÿ\.$}á/¯ìfž*F1¼Eð¾s;¨*|7?ËQ¢VobÛ±üÎc[p R,87¯Òe+Ç’~ª¥)A=ZÍÎ¾Q\2U~*í•9nwð0ycTÛht.óm#×î…$ÞÅ¤Ð§¢ƒ¼6º$˜Í-ß[/ï°ƒ=¾Ò÷xµ0fä.Æš~¶øK:KþÇí;~ßå^œ_ æ»}‡-å/éãÙöa¸férEñ'y‚ÝìÖ£2~{Í™û?{Œÿ…3ºÈÛ†cH+ih~y÷	–«ðà³©­ä`£f‘¼›æ°¬š l0Q!Ãöð®’ó?AvÆBŒ²~Fé¡~vÏgL
+S…9šA8þœiöƒÎ˜°N¨d^ØÛ†$ók«YX©W÷¯ZÑ|ñ‡…ßy©Ú„)XaB\u
+æ@öTIì½&êY	»bŠ˜ã!oØÆ	à6àÑRa_Ìµå6p'°ä¦ÈWm¼tbØ›d&òup¿,Ä—YÙ YLÕÇUø"Ìµy3ŠQ…ÜÛèŸïò*yk–{Nl±Ž9+[õÄ Äç3HQ^qå_ó"ù"jÀØg:¯õ¾Î
+­ë &¶“jcöŸÿ´-Ÿ´_“¯ãºW
+Úik[kÓGŒøáoå´aÖìŠÏT åuóâ½'±²,«®<ø†²FOºüÕÙÐ¯ãË1ÀøºuäxMæg2Ð&®eÑã"zÆ)@;yí
+ÉµßPÄ"(åõ¢+ŒP­ÖœcàTî
+Û9™éª¤ßbÓíÍòxäbÅÝ‰æ»»)+±,ÿRMçª”†Mi°ð_¯Æ›ÌÃ’lô±o˜vÑ§jqkFc£z¹<ðñŠuÀÆê±)&sR¢—ý‡'EêÄô]`tÊÓu­s;F·Ç4gëÁUC+ ÝHÒÝ‰èÁ×§l± .ð´•D„a”1LðTÈôëÌž%w°Çv•AÜ¡À¶}kEFÁËJÝÕì‡v¿hüz°1!ÖN=ãÛ^“ÛÇRÔWPí´_gZK9„D4÷¬–=_˜ã›ŒUw´²½JSž­Ã1;ÂgD\ýëô»¢n(s¥wžcrrÈ®6Ë›Qrj3¢þ¿•š‚Y¡àÝÓLÔ~X»‡l¸èn|‚9¹shŒ¯º¡Ë"Š3q._à6Œ…MFÊ2LL3˜>,ØF#QÄ™aÀ,‰ñ‹R`s3Ìñ»Ù‘IL3ùDCx-õ¯]€ÞGXÄTF^üFÙ‰„ƒŠjj8¶Bÿ?	Š>*×¾ïxH]$e>@Èd;e!éÈõ¬ŒâÝ’¨ò¿r‚Y~ú"wƒ.NYi˜Š&žql/£í?£¨µ&b÷
+ƒ’wø™ý7µ2r­$AB££)CT^G«Féõjw(2¡ö ªËþgQfc]f3‚î¦ßPÇv‡’öþîkŸ?å|rh®«1çêpRÔo·`:®ÒÏ!.H+Š0CéÀt°¡Ýöd¡ý?ÅtF4õÝ[ ^\Ä½{À´
+¢Qí2‹rïVÞ-÷hpsESÐå¬-?ã)ô³[ðÆ
+†ËìàB‹&ˆÞ•A«wƒPGÃ‘2Å×Ö+Â6¤¥Á±–¾œ“?qÑœãã[+«6&¢SÊ¹ÎlÀË­æò0~ÊŽŠOxÃ t`W2‹>¿{m§¥ˆÛÒë ƒPW(.&Û9øÇÜþê¯µ½“óÒÔ²Ý\gPÏžù¾@ÝŸÌ"•1äÓg„¦LíhsKúanÜâ—èÂÞRw@Þåu¶ƒIæhÆÔ3«Z³]Í¨¡.r¾´(# ïå¯ÜÎT©L»ËÅÛˆ!_1¢qçáî	§XãBêiÎŠv­f’¹^cïð^óú~7¨¿˜‡Î3<ŸF©èU!À ÚÝ‚ÊŒ‰Ä²ëƒTðëÃm‰§bë½¤½|Üvùaçœv=aÎÐSÀNñ·÷X¹ÂÇ˜]3hwG½u8[=ãD%€ÏePï½f˜ä¡Z›»ð&ìýw2C{Þe‹s:Bl$»KŸß[T¹ð#§M>¿PméÆp_GµÂvH‚£jœó]ëÊi¼oÍ ugdÆ¸=™%©Ð¶]6ª1FïÊ“s¿‘£,Ÿ>%BÁÚÚÇùëTB?ém‰hOòpIyšÔÂ$P<TÀ©V© cÃS–¦x~áL‡oþÃÔ~õ
+"´6KÍ–ë,¢ñe"aøQít­„d.R–ÞÈc;ñú™Ùâ‡>`þOòô­Y’@àÎ,¨ï ¯‰$qóÁ:¿™ˆ¶h2ôÙsˆí™Òæ[¥cr#bÐäÏB&£<ºÎž°´‰£éH ®—mëóÑs´¦ðþ~Ï­vtœu‹(•f¥dv6–Ëú¾Çàs™t$¶GèºˆxÃÑÕ*%9%g¡¶>è;ouæŽ5˜hWo¯}ÒPÞÞkÌnþ­ý©ï4PÒÝwN}ûV6ätSðBµJüÏ”Òæ÷Û‡iðt™YVË‡ìp;€%­EÂã³¼/ÙÏMaýôI£ùýÅ™( [h¬±*±H”f³ÿW\lðC—Ä©Ò@Ñ¾à·Á¾¶	`kª²ß<øÎ´‡ûzžŸâ”ú#Vr¿¬îŠXR
+OåVTAžá%Rªå;ÇÈL.ÀpË‰¶ ¤$ÈDÓLÁ‚Î/¼÷Ù>Ê*±/¸ª“Ô¹
+i«—…_}fjh¥#Œ’ÓUl'1ÕibãA@ ²fíì‘ùÑëº™¤ÆâOPWX¿&]4œƒ¸è™¡ÂOk µœFx4ßLøàHsÎ»mÈ’¡ë†SExåô)-¬Töm·µÍ<Ù¢îÌôþ6ì¼_–éº“r@ÚÆ»·$5U|Â8Wåª%:à6µ8ÝÊ'{sØ,àþNÂwl‹‚Up"3QGŠƒ¦Â]9v!6ñÔ©dÉ%ÀT!œÕš¾¹øH4âòˆ>¿wŒ?õhÀ¶_5©Nå®M»cbDGA‰u§Ô¢‹ƒ@œÊ/¼p¸§äe×vžk¬ö2jL0<»sæq~¸òˆÛå|]x=úš[ÍÉ5-[)­›,èË¤g[Äã:ÌT¼Lþ¼¶m½£~˜¸q©¾ZÁâwÎTSø¤âhöÒ=^ÃìS3ã®ïÅ¤ñ×;ËméÄO¦ëruäÿÉT£û¼ZIYôƒy¤’i”w ´º™¯Çù_›f½z®N^<Ð­Ægž{-ª
+·“ßc»-ÅÛæŠ®ð{´GK
+HpŠg?P‚8b×P>€Þ'ÖOmI©Ÿg©y‰þã¾Òvb|
+MUQ5új;Ý1¿®c;…Å5eWqÝ/ŒÊœæLšœÀmÄgvÖÊÔÛµSæfê†Ø(.¡f±ÐtþÑcsèdˆªÝ‹àNkîÎ¨xnëî„¨ÚyÆ[FºlŠ UË×Yåé•}ÉJsÏÉf¹B Û1s£y5±¤Šÿve:±Ò'Ï
+ªÞ g€NÞBìD£O§© G* ¹â9|W¬™¸Ê>–›6êm$iOÙ\°Ð<úêE‹Å–ºj\ß@py‡\G˜†Œ<æ²}vC»Wo¡j˜$º­Àfïé¦:,Ú®6hUË	Üûi^fh-ƒ$ŒLr|AÏAƒÍò¡
+`mÄeõ-³ïf¯ž°Ù{Õ¾·¯ÝZ’t³­–U3¤OKÉ·ù©ä6½…Ý>Cl¨Øpg¥úÃ H~Éè¡âË“”ÉqúäFÿ)û¤¯Q'³†
+7ýN'êD¹]\þ	œææ-#µ°M#YÉ‹Ì]#²4ûÊÐ±´ÞF;¶£|ñÏxç¦eiÉ=‚á‹j¨¼Â%QIÌŽ«/xY#ë/øQEÎ=k4Ñ	é2öu¨ÅçÑ¡ïÃ­nÂó£ÚýÖÁIñ›×7³ü3àíåûì¤#Èý¸??ÉÞWéì5%Î)'¥%¢Ÿêä‡OÊ‹$Õì²ÝèáÄ%¬ ˆþ©ÞNÓñ"”yÇ^¤ÉùáÀäQbÌ ÊÈÆ†Øp¾¢²1¦2‚rØþ]?áoÃß‚ÔaváÑUäéÈFüÖMèé‡ÒWÔ
+BNô»1õÎû^Šb­YÇÝÌ.äžËóí±eEƒhþ
+}ú„{""¹^ùE;hê×€þžcSÆh®M§°Á*s>ŸÒÂY9äŒ˜´’–¿ûmÛÊ_-É×?,ÞóãŸÐIt©…Ž(¤Z½vÕHËPH¡ÐdùïD<ÐÇ4¦•T ì­t½™òÎQýÆ“–ãS4ÑÞÊô±cºgØ0QW–FÉøÃíF/<Þüê‹¿³¡\œšÏ ŽZ©›[K+CãÀkw­ãÛ‰ŸVƒòc³Û“£%íÅ#eä)¤N
+ÂPöã\Pe=#f‘3}Aáº#°S–Ze>Lúfiøaá¦¾lBF	±–O´{ÄÝšÛ^'¼À4y?Tyœ•X"<ýØm’±éÈçÉ òq=wÕ^¯ª-¶cû#­ÞZû£Œé‰Q×°ãê,¿Äé?(³Ë{W­ë2ÑÃ¿{h%¾[›ÑÃÂL u;å#[HrEÔUñÅúÝ÷ÕÇ^®jÁ
+Ì2¡¯lTÉåˆ“°IÂƒ¾å‹0³hH¾u>î¡ž=X/ræ––)Ž…èfÏ¡H-:exdaoÉW¹ ¤O÷ðâñCpC·6")þ¿i-Ï­}¶ «`§ëHM’,þô#ñÆ+{ÿNVU„*5
+X°Ú’×LÆÆ‚ã¦=GLf½L=ßHÉ¡"s]}'ÿoÀ¬öð˜^¨zì<‘ç_K3^£´aÍƒJY±x—Š@3üê×ø
+&ž–‹˜ÞÔÅ`è‚ÐæC*Ó¥-¨…öÒ(Y$g?,äÀdyW¾ÔÆü‚¶$ÛÞŠ¤Åh–/Ï¾VaoG—ß÷ýŸPÄ	Ð!½wè2|8°ô \gÝèd ˆ%B¿—¯Tè"½´±à¦4Ð®	èe·&0RSG*¹NÅnp[/T‰sqEÐpj-e—¸ˆ³ÆÌ\p5BêËØŽ2_k4m‡§Ú°r	—t~‘.Û{æß
+ÔÁ]Ø;Q”“TŠ`ºçVÏ2AæDgü„³¶·Ê="\•raV¦8ó>’xDñ˜õu:zµŸ¸“	‰–±í™øvƒe “Ê‹–!(P.ë"Èåp?
+Ü:@Ì/‘ÒèÌ-xÓ!Þ2¯	SNnIoQl{¤Ü
+¢ƒ˜õ¿©,í2×ˆ#ƒ¯‘£ó}rAï[Ž=úyV*íå©Î õF°¡I#c‚$	›^pWÑ_:ÆŽ3SX·=þè¶|‹
+ýÉò#GYg£fo^ÄžÁˆ¤TÜ8x¤!“Þ 3ô‘{àŠkZâ]DÊÃ}]úiåQéë@ÏFù×fGµ .#W^Ô‰™›"…Ñ±–ðÛã#e°"íS2oî”'6•ëºôìZe
+@Ðò|ë«
+ŸöVô“ØÀýUßÀÓläÁX:ï©é¹ªœÂ(“<{7;áCèÆÑTÜ±}o)(Š}ÝÛ³íLr“‘ÔŠÈEñXÐQA’QÄ
+Ù*BÛñX¾ÓJaI9#5öMûÌýHî)Üÿçù¤E8 wCÇ—¬×ÂìÔ‹SšTÎB|r/¼e
+í–r%pHòäb¹œK<io'…«IÈ˜Î'µ |DŽ;B`gF ¦[DßI(¿•?ãgŠ
+n›íÊm§aŠj¡X0ÆrÑl0x“Ð§>
+ˆOFÏÆÑöT1ëöUÖÝ¼Rë¸‡À­×wT^}çí0É«3Š¯
+)á5¢4ø–½l¼}Tå‘h<uq¼Òè1IËs°2ë„œu=éTÇÁEpr‘©ST^0ÑÏz	éI»0X·‘ÒhŽÚá.AY¶Wõ¢yñ•‘å\¦ …Ðþ{kß =d.·‚@Ï†ž6A:{âŸqÑö{â„?ÑÊ—œ«ë˜æ¬1¸Ò7uÃ(ù¶7œX`ôË–iV_Cî‘[B%ÑÛ³.7Âd=›'ÔÕzyxiƒFCnâ0æ£¯R+¸•¢òäJÁ ¸ÔYƒ®„u|$÷¨ñŽndÆg3vá­Àô×¿e«ÃMGSË­9ð\6+[Å×¨wöú² ¤{²rGTñÈo}½xrÑ „î€ÞŒŽ	>‰EŽþž”Ö1`ï·"ñK&AuÛÑýLÛ¹I¼é¸ùê›Ús»ŠèÖÆ“ëöúêœ'|øèZp>€]x.ÔN ¦G“>OSÚ?Jùgri‘/hÆêgñ já±{bž—Û72ê¸R9(M2oNáCáŸcUáŸSÞx%+@QP'‚O‡sê' ôI¼Ù²t#ù1O›]ðßb£Jö•}È6¸ iÙmA7'YÔ®kÝÿßfoc"ÁMuk¾‚þÉúq¨ñ"'…ŠjP‚ëŸ¿ZÒ‹seæ»Ò£¤ÜK¸Ô'U(/‘çfon¦Î{y^W0)‡E§…úHòoRw¸+ß;Þ5à‰‰Bfê÷ò”e…½÷)„î`­¥ˆØOžÍôCPßwQPÿ°´2£@7•¡'¿îÎðž‰`¯'!q¿MÑv>ìÛá¹BbÁ“½3E`œeýŠìúyN0Ã¬áÀK¬„¤•¼¡èÎ¼˜%/	´x·eé	 >­ÄKË1çó·’7Cí•°¿©<­bˆ8‡à…µzãëÔ)ýJQü'¸ukY„qÂD¾eß#d|¾z‚‡Ð¡¦^ƒx`Zw)ä8’>`…E_ÃiŠ—Õµ¹…¦¹1®ÿ†ë‡ïs.¥Å¢p=®Y	b›A)4’r‚¹œ1©»
+iïoDp>ùÛ4ø_Z$¦G}•Ö^5jy-æ›þÉæy C¦ZŽqLi­ðÞ‚VñÛdÿU[PMLp,ÃÙ
+­·¬+	FHÚDèPqIÖyy˜×‚ô¸‡
+\›æŒj¼9ÉšØÊ,¾-&2ìÉ}îãe'iÿ¬8Ë ñ%.ÑùÜ®/²í`ö^fŸ
+LÆµU?µœ\T!jíï- 30™$FßPÎ²åNˆ%DËú¿*y¶›co¾‘Pµ"UÓèÿ¯‘!`Ê‚¤ø“Bb³
+˜¬wh=	
+®¨æ/ [>²K2Æ!5•Gº˜:ªO¹ñ„VïÙ\¹ª2Ó+ša¹—¸§FïFQ„4Úm…å¬Ëb[¯+[ŽSšk,Ãx[wÁé1éûÓ™€Ì* †Ñ€‘Ö”baÛ±÷(¼OÛ;?±‚CÉº™[ƒ©i0ÑXI­{18>HúîºÀ
+ò·W„¼+ÏÀdë³e+0†8¶¶!XžëÊ	Ü™y½ùc¿Ÿ'÷wìZ#ÂÎ†(³Å¹q÷¼¸ŠÐµ]„¨ä–[ëiúYE­,²|£`íëP‹4ŸÝØ
+íQ®œž¿´fs=¸8ríPÎ4¾Á(ßP=$ó¥Ã}7Ý†ü–V?à‚y¯6´i™³ïx
+y°¦}q'„"£EÓ9Jü×0¨ô'³‰€æÊ)LLÇ°q,„ˆò©%¤?ÎÎyØ¢òÉÊùÜÃMèù™î™÷î[	>ãø±³ÝAl–ÇµZ{¨1ËÔ¨\ÂtŒw‚R©U‚©©¼ùO?¡~ªœ¡úÏ»@ŽW‚ºy¦Y´B'¥´uá„c×¡?þW*³'¥‘
+)Gyü+.¿å9ÄÎ$@}Ðýý S¥®+Fs0ÍÙTî½ûò¸ÑgWhaq RjÐJ¥åR¦I‚›º‰Úô‚$¢×•ÌèOâ1½ ¯yió(4dm_\XmCO´ý¹çPxP}%UŽÐ+¾Ör¿K²-î1È0&ŽR¿®gÅ/²òÃ0î!Üq-ˆ§=^mØ¿ÕÏUÀŽÄ{¾½¸wØ¼	ú
+0
+"ÞàÞÞ¶ÑÇ7 g‹‹ü™‰”.ó³+¡×ÒŒ®]u#`o^~ùp‹É…¼2nO§jÉåJ`ß2wË’Ô2îî	òƒ3MaÂy¾l$Kjík7 º¿ß«IŸ ÁmjØ&yÄ·ÓFKÞ¨/mB‰{t¡m<Ñ¯”±ßòì6”WÐ¾»†Ê¯òÍšªW¢yµÆŠ->¸b$g)`	eéÝ½±ÒwømQj”Â˜p
+…HuñZßÊÀsÁªîÌM€sHÑ8ˆ¿dæ-G7£,^ÆÓƒó)/Ï™\=7ÜÉÔJ	à<ò@sÒäÄm,kO…ÀbùC7?äœ‹Ï3Ò¶PhAU—Q@`¯gH¬^Þ³{Ùû¬e’p‰&“œÔƒÖ¦”m¸lU7ÿ<ã%‘úå¿ßS¨cÆ(oõÂ½œ„/‚%Ò(û/7¸3çÈ¯oÂD.…ºæäFÄùd™¥Äš`Å2–í>üÇ¨H“òœ§yMdï{(Œ}¨$M8)¼IåØn
+Ã¹X•î"OThyÕKI=)á†¡NÙzôµ€HA‡xk4uõpuæÀV¾‹dicÀÔÞÞ¢KXÝI{|ø
+eƒAd7áç­àO±;;P%~UÔ\kádö²À23NEå´‡¬ï½G,}VÊ…:W‹ò»®U`vš¥þÜ˜qœ¢h‚‰Ür2Ö3|Nø&5Å)$Q¹™Ÿ>»ª;Ö¦¬dýW6å³ 1ý%?p£û?)h7AÏê@|¸»Þ
+W)“ÕÀ“UXÆ±KWÅQ•óÝpÙ¾ø»H2ã
+KÁœ<ûTá]hg¼Á¬Ÿ¶å…ÖŒ¨^2Þc®6„$Hƒå¿qÙKÌ¨6DÌ@šK.Ùåý
+OÌÃ-:˜u‰»¿yá¶ÿ·Î¼!–!ç¿ôâoVQº,–ÛV¶ÎòAæÆœÜÊ.w5AlÐè!%@°aÄò6èJS¿‚¶–_kPæäUs½!L&
+lLß¿æíK   Jx¤Æð´´`Q-RÂ¢n=h>Ž"uÏêK».Ïk¡: òD€µ Ç)«¶éß    
+YZ
