@@ -86,7 +86,7 @@ cd
 wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/ownerjossh/master-centos6/master/nginx.conf"
 sed -i 's/www-data/nginx/g' /etc/nginx/nginx.conf
 mkdir -p /home/vps/public_html
-echo "<pre>Setup by Fawzya.Net</pre>" > /home/vps/public_html/index.html
+echo "<pre>Setup by JoSSH TEAM</pre>" > /home/vps/public_html/index.html
 echo "<?php phpinfo(); ?>" > /home/vps/public_html/info.php
 rm /etc/nginx/conf.d/*
 wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/ownerjossh/master-centos6/master/vps.conf"
