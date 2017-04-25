@@ -33,4 +33,4 @@ do
         fi
 done
 echo "-------------------------------"
-echo -e "Created by \e[1;33;44m JoSSH TEAM \e[0m"
+echo -e "create by \e[1;21;40mJoSSH TEAM\e[0m"
