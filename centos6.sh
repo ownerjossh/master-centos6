@@ -202,9 +202,9 @@ chkconfig squid on
 
 # install webmin
 cd
-wget https://raw.githubusercontent.com/ownerjossh/master-centos6/master/webmin-1.670-1.noarch.rpm
-rpm -U webmin-1.710-1.noarch.rpm
-rm webmin-1.710-1.noarch.rpm
+wget http://prdownloads.sourceforge.net/webadmin/webmin-1.670-1.noarch.rpm
+rpm -i webmin-1.670-1.noarch.rpm;
+rm webmin-1.670-1.noarch.rpm
 service webmin restart
 chkconfig webmin on
 
@@ -231,6 +231,8 @@ wget -O user-add "https://raw.githubusercontent.com/ownerjossh/master-centos6/ma
 wget -O user-list "https://raw.githubusercontent.com/ownerjossh/master-centos6/master/perintah/user-list.sh" 
 wget -O trial "https://raw.githubusercontent.com/ownerjossh/master-centos6/master/perintah/trial.sh"
 wget -O user-del "https://raw.githubusercontent.com/ownerjossh/master-centos6/master/perintah/user-del.sh"
+wget -O benchmark "https://raw.githubusercontent.com/ownerjossh/master-centos6/master/perintah/benchmark.sh"
+wget -O ps-mem "https://raw.githubusercontent.com/ownerjossh/master-centos6/master/perintah/ps_mem.py"
 echo "cat log-install.txt" | tee tutorial
 echo "speedtest.py --share" | tee speedtest
 # sett permission
@@ -242,7 +244,9 @@ chmod +x trial
 chmod +x user-del
 chmod +x tutorial
 chmod +x speedtest
+chmod +x ps-mem
 chmod +x speedtest.py
+chmod +x benchmark
 
 cd
 # cron
@@ -293,14 +297,19 @@ echo ""  | tee -a log-install.txt
 echo "Perintah VPS ANDA"  | tee -a log-install.txt
 echo "------"  | tee -a log-install.txt
 
+echo "tutorial : untuk melihat data dan perintah lengkap vps" | tee -a log-install.txt
 echo "speedtest: untuk cek speed vps"  | tee -a log-install.txt
 echo "user-login  : untuk melihat user yang sedang login"  | tee -a log-install.txt
 echo "trial : untuk membuat akun trial selama 1 hari"  | tee -a log-install.txt
 echo "user-add : untuk membuat akun baru"  | tee -a log-install.txt
 echo "user-list : untuk melihat daftar akun beserta masa aktifnya"  | tee -a log-install.txt
-echo "----------"  | tee -a log-install.txt
-
-
+echo "user-expired : untuk melihat dan membekukan akun expired biar tidak bisa login" | tee -a log-install.txt
+echo "user-del : untuk menghapus akun" | tee -a log-install.txt
+echo "ps-mem : untuk mengecek penggunaan ram"  | tee -a log-install.txt
+echo "benchmark : untuk melihat info vps" | tee -a log-install.txt
+echo "----------"  | tee -a log-install.txt | tee -a log-install.txt
+echo ""  | tee -a log-install.txt
+echo "SILAHKAN REBOOT VPS ANDA !"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "==============================================="  | tee -a log-install.txt
 
