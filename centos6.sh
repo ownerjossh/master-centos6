@@ -233,6 +233,7 @@ wget -O trial "https://raw.githubusercontent.com/ownerjossh/master-centos6/maste
 wget -O user-del "https://raw.githubusercontent.com/ownerjossh/master-centos6/master/perintah/user-del.sh"
 wget -O benchmark "https://raw.githubusercontent.com/ownerjossh/master-centos6/master/perintah/benchmark.sh"
 wget -O ps-mem "https://raw.githubusercontent.com/ownerjossh/master-centos6/master/perintah/ps_mem.py"
+wget -O user-expired-list "https://raw.githubusercontent.com/ownerjossh/master-centos6/master/perintah/user-expired-list.sh"
 echo "cat log-install.txt" | tee tutorial
 echo "speedtest.py --share" | tee speedtest
 # sett permission
@@ -247,6 +248,7 @@ chmod +x speedtest
 chmod +x ps-mem
 chmod +x speedtest.py
 chmod +x benchmark
+chmod +x user-expired-list
 
 cd
 # cron
@@ -307,6 +309,7 @@ echo "user-expired : untuk melihat dan membekukan akun expired biar tidak bisa l
 echo "user-del : untuk menghapus akun" | tee -a log-install.txt
 echo "ps-mem : untuk mengecek penggunaan ram"  | tee -a log-install.txt
 echo "benchmark : untuk melihat info vps" | tee -a log-install.txt
+echo "user-expired-list : untuk Melihat List akun expired" | tee -a log-install.txt
 echo "----------"  | tee -a log-install.txt | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "SILAHKAN REBOOT VPS ANDA !"  | tee -a log-install.txt
