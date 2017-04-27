@@ -316,5 +316,5 @@ echo "SILAHKAN REBOOT VPS ANDA !"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "==============================================="  | tee -a log-install.txt
 
-rm kvm-install.sh
+rm centos6.sh
 reboot
