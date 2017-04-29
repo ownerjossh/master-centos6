@@ -17,15 +17,18 @@ do
 		fi
 done < /etc/passwd
 JUMLAH="$(awk -F: '$3 >= 500 && $1 != "nobody" {print $1}' /etc/passwd | wc -l)"
+read -p "Username : " Login
+read -p "Berapa hari akun [$Login] aktif: " masaaktif
+passwd: password expiry information changed.
+IP=`dig +short myip.opendns.com @resolver1.opendns.com`
+mati="$(chage -l $Login | grep "Account expires" | awk -F": " '{print $2}')"
+chage -E `date -d "$masaaktif days" +"mati"` $Login
+exp="$(chage -l $Login | grep "Account expires" | awk -F": " '{print $2}')"
+echo -e "$Pass\n$Pass\n"|passwd $Login &> /dev/null
 echo "-------------------------------"
 read -p "Username : " Login
 read -p "Berapa hari akun [$Login] aktif: " masaaktif
 echo -e "passwd: password expiry information changed."
-
-IP=`dig +short myip.opendns.com @resolver1.opendns.com`
-date -d "$masaaktif days" +"%Y-%m-%d"` -s /bin/false -M $Login
-exp="$(chage -l $Login | grep "Account expires" | awk -F": " '{print $2}')"
-echo -e "$Pass\n$Pass\n"|passwd $Login &> /dev/null
 echo -e ""
 echo -e "-----------------------------"
 echo -e "DATA LENGKAP AKUN :"
@@ -39,3 +42,5 @@ echo -e "Username: $Login "
 echo -e "Akun Aktif s/d: $exp"
 echo -e "==========================="
 echo -e "create by \e[1;21;40mJoSSH TEAM\e[0m"
+
+
