@@ -1,9 +1,28 @@
 #!/bin/bash
-#Script Perpanjang User SSH
+# Script by JoSSH TEAM - 087802844588
+echo "-------------------------- TAMBAH MASA AKTIF AKUN SSH --------------------------"
+echo "                        Installer Script by : JoSSH TEAM                        "
+echo "                https://www.facebook.com/www.sutriez,087802844588               "
 
+echo "-------------------------------"
+echo "USERNAME        TANGGAL EXPIRED"
+echo "-------------------------------"
+while read JoSSH
+do
+        AKUN="$(echo $JoSSH | cut -d: -f1)"
+        ID="$(echo $JoSSH | grep -v nobody | cut -d: -f3)"
+        exp="$(chage -l $AKUN | grep "Account expires" | awk -F": " '{print $2}')"
+        if [[ $ID -ge 500 ]]; then
+        printf "%-17s %2s\n" "$AKUN" "$exp"
+		fi
+done < /etc/passwd
+JUMLAH="$(awk -F: '$3 >= 500 && $1 != "nobody" {print $1}' /etc/passwd | wc -l)"
+echo "-------------------------------"
 read -p "Username : " Login
-read -p "Penambahan Masa Aktif (hari): " masaaktif
-userdel $Login
+read -p "Expired (hari): " masaaktif
+echo -e "passwd: password expiry information changed."
+
+IP=`dig +short myip.opendns.com @resolver1.opendns.com`
 useradd -e `date -d "$masaaktif days" +"%Y-%m-%d"` -s /bin/false -M $Login
 exp="$(chage -l $Login | grep "Account expires" | awk -F": " '{print $2}')"
 echo -e "$Pass\n$Pass\n"|passwd $Login &> /dev/null
