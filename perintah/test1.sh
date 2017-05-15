@@ -3,16 +3,10 @@
 
 echo "------------------------------- BANNED AKUN SSH --------------------------------"
 echo "                            ALL SUPPORTED BY JoSSH
- 
-if [[ $vps = "soned" ]]; then
-	echo "                   https://facebook.com/www.sutriez                            "
-	
-else
-	echo "                             087802844588                           "
-fi
-
-	echo -e "                 Script Installer by \e[1;21;40mJoSSH TEAM\e[0m"      "
-echo ""
+echo "                       https://facebook.com/www.sutriez                            "
+echo "                                 087802844588                           "
+echo -e "                     Script Installer by \e[1;21;40mJoSSH TEAM\e[0m"      "
+echo ""                       
 
 # begin of user-list
 echo "-------------------------------"
