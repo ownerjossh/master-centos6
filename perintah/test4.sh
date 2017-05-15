@@ -2,10 +2,10 @@
 
 
 echo "------------------------------- BANNED AKUN SSH --------------------------------"
-echo "                            ALL SUPPORTED BY JoSSH
+echo "                            ALL SUPPORTED BY JoSSH                               "
 echo "                       https://facebook.com/www.sutriez                            "
 echo "                                 087802844588                           "
-echo -e "                     Script Installer by \e[1;21;40mJoSSH TEAM\e[0m"      "
+echo -e "                     Script Installer by \e[1;21;40mJoSSH TEAM\e[0m      "
 echo ""                       
 
 # begin of user-list
